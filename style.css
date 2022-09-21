@@ -1,0 +1,275 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e1d3fc;
+}
+
+#galery {
+  background-color: #e1d3fc;
+}
+footer {
+  background-color: #763fdb;
+}
+section {
+  padding-top: 5rem;
+}
+
+/* my stuff section */
+.stuff-box {
+  background-color: #763fdb;
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.stuff-box::before {
+  content: 'MY';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 30px;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate(-50%, 0);
+}
+
+.stuff-box:hover::before {
+  opacity: 0.2;
+}
+
+.stuff-box::after {
+  content: 'CUBE';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 340px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.stuff-box:hover::after {
+  opacity: 0.2;
+}
+
+.stuff-name {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transform: translate3d(0, 0, 50px);
+}
+
+.stuff-box:hover .stuff-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.cube-detil-botton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.stuff-box:hover .cube-detil-botton {
+  bottom: 5px;
+  opacity: 1;
+}
+
+.rubik {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 90px);
+  max-width: 400px;
+  transition: 0.5s;
+}
+.stuff-box:hover .rubik {
+  transform: translate3d(-50%, -52%, 90px) scale(1.2);
+}
+
+/* pot */
+.stuff-box-pot {
+  background-color: #763fdb;
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.stuff-box-pot::before {
+  content: 'MY';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 30px;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate(-50%, 0);
+}
+
+.stuff-box-pot:hover::before {
+  opacity: 0.2;
+}
+
+.stuff-box-pot::after {
+  content: 'POT';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 340px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.stuff-box-pot:hover::after {
+  opacity: 0.2;
+}
+
+.stuff-name {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transform: translate3d(0, 0, 50px);
+}
+
+.stuff-box-pot:hover .stuff-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.cube-detil-botton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.stuff-box-pot:hover .cube-detil-botton {
+  bottom: 5px;
+  opacity: 1;
+}
+
+.pot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 90px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+.stuff-box-pot:hover .pot {
+  transform: translate3d(-50%, -52%, 90px) scale(1.2);
+}
+
+/* vape */
+.stuff-box-vape {
+  background-color: #763fdb;
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.stuff-box-vape::before {
+  content: 'MY';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 30px;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate(-50%, 0);
+}
+
+.stuff-box-vape:hover::before {
+  opacity: 0.2;
+}
+
+.stuff-box-vape::after {
+  content: 'VAPE';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 340px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.stuff-box-vape:hover::after {
+  opacity: 0.2;
+}
+
+.stuff-name {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transform: translate3d(0, 0, 50px);
+}
+
+.stuff-box-vape:hover .stuff-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.cube-detil-botton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.stuff-box-vape:hover .cube-detil-botton {
+  bottom: 5px;
+  opacity: 1;
+}
+
+.vape {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 90px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+.stuff-box-vape:hover .vape {
+  transform: translate3d(-50%, -52%, 90px) scale(1.2);
+}
